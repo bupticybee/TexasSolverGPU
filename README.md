@@ -1,36 +1,27 @@
 # TexasSolver GPU
 
+[![release](https://img.shields.io/github/v/release/bupticybee/TexasSolverGPU?label=release)](https://github.com/bupticybee/TexasSolverGPU/releases)
+[![license](https://img.shields.io/badge/license-EULA-orange)](./EULA.md)
+[![discord](https://img.shields.io/badge/discord-join%20chat-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/RtyD4vRy2e)
+
+README English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja-JP.md) | [한국어](./README.ko-KR.md) | [Español](./README.es-ES.md)
+
 <p align="center">
   <img src="./assets/images/logo-solid.png" alt="TexasSolver GPU logo" width="220" />
 </p>
 
-<p align="center">
-  Windows desktop release repository for a GPU-accelerated Texas Hold'em solver.
-</p>
+TexasSolver GPU is a Windows desktop release repository for a GPU-accelerated Texas Hold'em solver.
 
-## Overview
+## Introduction
 
-TexasSolver GPU is a Windows desktop solver focused on practical local analysis for No-Limit Texas Hold'em. The application packages a native C++/CUDA solver runtime together with a desktop GUI, so users can build trees, batch solve boards, inspect strategies, and study results locally on a Windows machine with an NVIDIA GPU.
+TexasSolver GPU is built for practical local study on Windows with an NVIDIA GPU. The desktop app bundles native solver runtimes together with a GUI so you can:
 
-This repository is the public release and distribution repository. It is not the main development repository and it does not contain the private `gpu_solver` source tree.
+- build trees and run quick-start studies
+- batch solve multiple boards
+- inspect node-lock scenarios
+- explore and practice against strategy outputs
 
-This repo is intended to host:
-
-- release documentation and release metadata
-- GitHub Release assets for Windows builds
-- the public `viewer` utility
-- static public assets such as `quick_start` and `ranges`
-- scripts that assemble release bundles from a local `gpu_solver` checkout
-
-## What The Project Includes
-
-- Windows desktop launcher with bundled solver runtimes
-- Tree construction and quick-start study workflows
-- Batch solving tools for multi-board analysis
-- Node lock workflows for exploit and scenario testing
-- Interactive strategy study and play-against-strategy tools
-- Built-in quick start datasets and preflop range assets
-- Python strategy viewer for exported JSON results
+This repository is the public distribution repository only. It does not contain the private `gpu_solver` source tree.
 
 ## Screenshots
 
@@ -56,22 +47,16 @@ This repo is intended to host:
 
 ## Download
 
-Official Windows binaries should be downloaded from GitHub Releases for this repository.
+Download Windows builds from [GitHub Releases](https://github.com/bupticybee/TexasSolverGPU/releases).
 
-Current local release metadata in this repo points to:
+Current public release:
 
 - Version: `v0.1.0`
 - Platform: `windows-x64`
 
-## System Requirements
+## Runtime Files
 
-- Windows 10 or Windows 11, 64-bit
-- NVIDIA GPU
-- WebView2 Runtime installed on the target machine
-
-## Release Bundle Contents
-
-Each Windows release bundle is expected to include:
+Each Windows bundle includes:
 
 - `TexasSolverGpu.exe`
 - `TexasSolverGpu_131.exe`
@@ -86,38 +71,29 @@ Recommended startup order:
 2. `TexasSolverGpu_131.exe`
 3. `TexasSolverGpu_legacy_126.exe`
 
+## Requirements
+
+- Windows 10 or Windows 11, 64-bit
+- NVIDIA GPU
+- WebView2 Runtime installed
+
 ## Viewer
 
-The viewer is distributed as Python source in [viewer/viewer.py](viewer/viewer.py).
-
-Run it with:
+The strategy viewer is distributed as Python source in [viewer/viewer.py](./viewer/viewer.py).
 
 ```powershell
 python viewer/viewer.py --file your_result.json
 ```
 
-See [viewer/README.md](viewer/README.md) for dependencies and usage notes.
+See [viewer/README.md](./viewer/README.md) for details.
 
-## Repository Policy
+## Community
+
+- Discord: https://discord.com/invite/RtyD4vRy2e
+
+## Notice
 
 - Public repo does not mean the private `gpu_solver` source code is open source.
-- This repo is for binary distribution, metadata, and helper tools only.
-- Internal solver implementation, training code, build code, and private tooling are not published here.
-- Feature development should happen in the private source repository, not here.
-
-## Release Workflow
-
-This repo stores metadata and helper content. Large release artifacts should go to GitHub Releases, not git history.
-
-Typical local workflow:
-
-```powershell
-cd scripts
-.\prepare_release.ps1 -Version v0.1.0
-```
-
-That script expects a sibling checkout at `../gpu_solver`, validates `win_output`, builds a clean staging directory, creates a zip bundle, and updates:
-
-- `releases/latest/manifest.json`
-- `releases/latest/checksums.txt`
-- `releases/latest/release_notes.md`
+- This repo is for binary distribution, metadata, screenshots, and helper tools only.
+- Internal solver implementation, build systems, and private tooling are not published here.
+- See [EULA.md](./EULA.md) for the distribution notice.
