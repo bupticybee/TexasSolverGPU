@@ -1,7 +1,7 @@
 # TexasSolver GPU
 
 <p align="center">
-  <img src="./assets/images/logo.png" alt="TexasSolver GPU logo" width="220" />
+  <img src="./assets/images/logo.ico" alt="TexasSolver GPU logo" width="220" />
 </p>
 
 <p align="center">
