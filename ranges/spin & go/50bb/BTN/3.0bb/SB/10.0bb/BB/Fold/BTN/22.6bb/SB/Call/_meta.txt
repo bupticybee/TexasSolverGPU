@@ -1,0 +1,7 @@
+source_file=3p_spin_go_50bb.json
+line=BTN 3.0bb / SB 10.0bb / BB Fold / BTN 22.6bb / SB Call
+players=BTN,SB
+oop=BTN
+ip=SB
+pot_bb=46.2
+eff_bb=27.4

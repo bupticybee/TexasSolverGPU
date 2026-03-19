@@ -1,0 +1,21 @@
+﻿{
+    "version":  "v0.1.0",
+    "channel":  "latest",
+    "platform":  "windows-x64",
+    "bundle":  "TexasSolverGpu-v0.1.0-windows-x64.zip",
+    "sha256":  "1605f4dab315e2fb7479715feebe4c68bddac1eb93ca46ef99611fa226ed9e2c",
+    "generated_at":  "2026-03-19T11:26:09+08:00",
+    "source_repo":  "gpu_solver",
+    "source_commit":  "4ef4c20",
+    "required_runtime_files":  [
+                                   "TexasSolverGpu.exe",
+                                   "TexasSolverGpu_131.exe",
+                                   "TexasSolverGpu_legacy_126.exe",
+                                   "WebView2Loader.dll"
+                               ],
+    "included_directories":  [
+                                 "quick_start",
+                                 "ranges",
+                                 "viewer"
+                             ]
+}

@@ -1,0 +1,7 @@
+source_file=2p_spin_go_30bb.json
+line=SB Call / BB Check
+players=SB,BB
+oop=BB
+ip=SB
+pot_bb=2.0
+eff_bb=29.0

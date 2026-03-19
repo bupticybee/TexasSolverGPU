@@ -1,0 +1,7 @@
+source_file=2p_spin_go_100bb.json
+line=SB Call / BB 3.0bb / SB 9.0bb / BB 19.8bb / SB 59.4bb
+players=SB,BB
+oop=BB
+ip=SB
+pot_bb=79.2
+eff_bb=40.6

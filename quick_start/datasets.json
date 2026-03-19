@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "datasets": [
+    {
+      "key": "6MAX",
+      "name": "6max 100bb",
+      "title": "Quick Start (6max 100bb)",
+      "subtitle": "Load 2-player leaves from ranges/6max_range, auto-compute flop pot/eff stack from preflop line.",
+      "jsonl_candidates": [
+        "quick_start/6max.jsonl"
+      ],
+      "fallback_sixmax_scan": true,
+      "metadata": {
+        "players": 6,
+        "stack_bb": 100,
+        "sb": 0.5,
+        "bb": 1,
+        "ante": 0,
+        "straddle": 0
+      }
+    },
+    {
+      "key": "SPIN_HU",
+      "name": "HU",
+      "title": "Quick Start (HU)",
+      "subtitle": "Load precomputed HU quick-start scenarios from quick_start/spin_go_hu.jsonl.",
+      "jsonl_candidates": [
+        "quick_start/spin_go_hu.jsonl"
+      ],
+      "fallback_sixmax_scan": false,
+      "metadata": {
+        "players": 2
+      }
+    },
+    {
+      "key": "SPIN_3H",
+      "name": "Spin&Go 3H",
+      "title": "Quick Start (Spin&Go 3H)",
+      "subtitle": "Load precomputed 3-handed quick-start scenarios from quick_start/spin_go_3h.jsonl.",
+      "jsonl_candidates": [
+        "quick_start/spin_go_3h.jsonl"
+      ],
+      "fallback_sixmax_scan": false,
+      "metadata": {
+        "players": 3
+      }
+    }
+  ]
+}
