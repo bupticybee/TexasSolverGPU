@@ -10,11 +10,11 @@
   <img src="./assets/images/logo-solid.png" alt="TexasSolver GPU logo" width="220" />
 </p>
 
-TexasSolver GPU es el repositorio público de distribución para la versión de Windows de un solver de Texas Hold'em acelerado por GPU.
+TexasSolver GPU es el repositorio público de distribución para la versión de Windows de un solver de Texas Hold'em acelerado por GPU, pensado para resolver mucho más rápido que los flujos anteriores centrados en CPU.
 
 ## Introducción
 
-TexasSolver GPU está pensado para estudio local en Windows con una GPU NVIDIA. La aplicación de escritorio incluye runtimes nativos del solver y una GUI para:
+TexasSolver GPU está pensado para estudio local en Windows con una GPU NVIDIA. En comparación con los flujos anteriores de estilo TexasSolver más centrados en CPU, este runtime de escritorio con GPU busca ofrecer resoluciones locales mucho más rápidas y una iteración más ágil. La aplicación de escritorio incluye runtimes nativos del solver y una GUI para:
 
 - construir árboles y empezar estudios rápidos
 - resolver varios boards por lotes
@@ -22,6 +22,12 @@ TexasSolver GPU está pensado para estudio local en Windows con una GPU NVIDIA. 
 - explorar resultados y practicar contra estrategias
 
 Este repositorio es solo para distribución pública. No contiene el árbol fuente privado de `gpu_solver`.
+
+## Por que GPU
+
+- La aceleración por GPU reduce de forma importante el tiempo de cálculo en muchas cargas de trabajo locales.
+- Una iteración más rápida hace mucho más práctico construir árboles, resolver por lotes y probar escenarios con node lock.
+- Para usuarios de Windows con GPU NVIDIA, este proyecto representa la evolución de alto rendimiento de la línea TexasSolver anterior.
 
 ## Capturas
 
