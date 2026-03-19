@@ -1,4 +1,4 @@
-1605f4dab315e2fb7479715feebe4c68bddac1eb93ca46ef99611fa226ed9e2c *TexasSolverGpu-v0.1.0-windows-x64.zip
+46e49955804d3a143aeaa818b44d0ce39dc24940c53d6bc5016627dbe6712358 *TexasSolverGpu-v0.1.0-windows-x64.zip
 
 65bed18524eeb06553a0989ea950e53663f9bd2d3aa754d0ab18ecc36f560ffe *TexasSolverGpu.exe
 021731b1c8dd2d671d83fe56fd601c04fab6e52ae9be0d3f1557211cd4924b0f *TexasSolverGpu_131.exe
