@@ -4,7 +4,7 @@
 [![license](https://img.shields.io/badge/license-EULA-orange)](./EULA.md)
 [![discord](https://img.shields.io/badge/discord-join%20chat-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/RtyD4vRy2e)
 
-README English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja-JP.md) | [한국어](./README.ko-KR.md) | [Español](./README.es-ES.md)
+README English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja-JP.md) | [한국어](./README.ko-KR.md) | [Español](./README.es-ES.md) | [Русский](./README.ru-RU.md)
 
 <p align="center">
   <img src="./assets/images/logo-solid.png" alt="TexasSolver GPU logo" width="220" />
