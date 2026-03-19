@@ -1,13 +1,47 @@
-# TexasSolver GPU Release
+# TexasSolver GPU
 
-This repository is the public distribution repo for TexasSolver GPU Windows releases.
+<p align="center">
+  <img src="./assets/images/logo.png" alt="TexasSolver GPU logo" width="220" />
+</p>
 
-It is not the main development repository and it does not contain the private `gpu_solver` source tree. This repo only carries:
+<p align="center">
+  Windows desktop release repository for a GPU-accelerated Texas Hold'em solver.
+</p>
 
-- release documentation and metadata
-- the `viewer` utility
+## Overview
+
+TexasSolver GPU is a Windows desktop solver focused on practical local analysis for No-Limit Texas Hold'em. The application packages a native C++/CUDA solver runtime together with a desktop GUI, so users can run studies locally on a Windows machine with an NVIDIA GPU.
+
+This repository is the public release and distribution repository. It is not the main development repository and it does not contain the private `gpu_solver` source tree.
+
+This repo is intended to host:
+
+- release documentation and release metadata
+- GitHub Release assets for Windows builds
+- the public `viewer` utility
 - static public assets such as `quick_start` and `ranges`
 - scripts that assemble release bundles from a local `gpu_solver` checkout
+
+## What The Project Includes
+
+- Windows desktop launcher with bundled solver runtimes
+- GPU-oriented solver workflow for local study
+- built-in quick start datasets and preflop range assets
+- Python strategy viewer for exported JSON results
+
+## Screenshots
+
+### Main Window
+
+![TexasSolver GPU main window](./assets/images/app-window.png)
+
+### Solver Workspace Detail
+
+![TexasSolver GPU workspace detail](./assets/images/app-detail.png)
+
+### Desktop View
+
+![TexasSolver GPU desktop screenshot](./assets/images/app-desktop.png)
 
 ## Download
 
@@ -24,7 +58,7 @@ Current local release metadata in this repo points to:
 - NVIDIA GPU
 - WebView2 Runtime installed on the target machine
 
-## Included Runtime Files
+## Release Bundle Contents
 
 Each Windows release bundle is expected to include:
 
@@ -51,7 +85,7 @@ Run it with:
 python viewer/viewer.py --file your_result.json
 ```
 
-See [viewer/README.md](viewer/README.md) for dependencies and notes.
+See [viewer/README.md](viewer/README.md) for dependencies and usage notes.
 
 ## Repository Policy
 
@@ -76,15 +110,3 @@ That script expects a sibling checkout at `../gpu_solver`, validates `win_output
 - `releases/latest/manifest.json`
 - `releases/latest/checksums.txt`
 - `releases/latest/release_notes.md`
-
-## GitHub Remote Creation
-
-This local repo was prepared without GitHub CLI. If you want to publish it manually:
-
-```powershell
-cd ..\texassolver_gpu_release
-git branch -M main
-git remote add origin <your-public-github-repo-url>
-git push -u origin main
-```
-
