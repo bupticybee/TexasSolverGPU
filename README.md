@@ -10,7 +10,7 @@
 
 ## Overview
 
-TexasSolver GPU is a Windows desktop solver focused on practical local analysis for No-Limit Texas Hold'em. The application packages a native C++/CUDA solver runtime together with a desktop GUI, so users can run studies locally on a Windows machine with an NVIDIA GPU.
+TexasSolver GPU is a Windows desktop solver focused on practical local analysis for No-Limit Texas Hold'em. The application packages a native C++/CUDA solver runtime together with a desktop GUI, so users can build trees, batch solve boards, inspect strategies, and study results locally on a Windows machine with an NVIDIA GPU.
 
 This repository is the public release and distribution repository. It is not the main development repository and it does not contain the private `gpu_solver` source tree.
 
@@ -25,23 +25,34 @@ This repo is intended to host:
 ## What The Project Includes
 
 - Windows desktop launcher with bundled solver runtimes
-- GPU-oriented solver workflow for local study
-- built-in quick start datasets and preflop range assets
+- Tree construction and quick-start study workflows
+- Batch solving tools for multi-board analysis
+- Node lock workflows for exploit and scenario testing
+- Interactive strategy study and play-against-strategy tools
+- Built-in quick start datasets and preflop range assets
 - Python strategy viewer for exported JSON results
 
 ## Screenshots
 
-### Main Window
+### Quick Start
 
-![TexasSolver GPU main window](./assets/images/app-window.png)
+![TexasSolver GPU quick start page](./assets/images/quick-start-page.png)
 
-### Solver Workspace Detail
+### Tree Construction
 
-![TexasSolver GPU workspace detail](./assets/images/app-detail.png)
+![TexasSolver GPU tree construction page](./assets/images/tree-construction-page.png)
 
-### Desktop View
+### Batch Solving
 
-![TexasSolver GPU desktop screenshot](./assets/images/app-desktop.png)
+![TexasSolver GPU batch solving page](./assets/images/batch-solving-page.png)
+
+### Node Lock
+
+![TexasSolver GPU node lock page](./assets/images/node-lock-page.png)
+
+### Play Against Strategy
+
+![TexasSolver GPU play against strategy page](./assets/images/play-against-strategy.png)
 
 ## Download
 
