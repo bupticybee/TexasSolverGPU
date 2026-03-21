@@ -57,7 +57,7 @@ Windows 发布包请从 [GitHub Releases](https://github.com/bupticybee/TexasSol
 
 当前公开版本：
 
-- 版本：`v0.1.0`
+- 版本：`v0.2.0`
 - 平台：`windows-x64`
 
 ## 运行文件

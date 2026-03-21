@@ -137,12 +137,6 @@ $notes = @"
 - WebView2 Runtime required
 - Preferred launcher: TexasSolverGpu.exe
 - Fallback runtimes: TexasSolverGpu_131.exe, TexasSolverGpu_legacy_126.exe
-
-## Source traceability
-
-- Source repo: gpu_solver
-- Source commit: $commit
-- Generated at: $generatedAt
 "@
 
 $notes | Set-Content -Path $releaseNotesPath -Encoding utf8

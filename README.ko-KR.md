@@ -57,7 +57,7 @@ Windows 빌드는 [GitHub Releases](https://github.com/bupticybee/TexasSolverGPU
 
 현재 공개 릴리스:
 
-- 버전: `v0.1.0`
+- 버전: `v0.2.0`
 - 플랫폼: `windows-x64`
 
 ## 포함 파일

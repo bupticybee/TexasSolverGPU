@@ -57,7 +57,7 @@ Download Windows builds from [GitHub Releases](https://github.com/bupticybee/Tex
 
 Current public release:
 
-- Version: `v0.1.0`
+- Version: `v0.2.0`
 - Platform: `windows-x64`
 
 ## Runtime Files

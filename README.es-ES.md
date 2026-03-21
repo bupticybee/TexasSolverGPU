@@ -57,7 +57,7 @@ Descarga las builds de Windows desde [GitHub Releases](https://github.com/buptic
 
 Versión pública actual:
 
-- Versión: `v0.1.0`
+- Versión: `v0.2.0`
 - Plataforma: `windows-x64`
 
 ## Archivos incluidos

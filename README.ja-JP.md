@@ -57,7 +57,7 @@ Windows ビルドは [GitHub Releases](https://github.com/bupticybee/TexasSolver
 
 現在の公開バージョン:
 
-- バージョン: `v0.1.0`
+- バージョン: `v0.2.0`
 - プラットフォーム: `windows-x64`
 
 ## 同梱ファイル

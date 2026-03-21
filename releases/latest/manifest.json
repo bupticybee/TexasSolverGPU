@@ -1,12 +1,12 @@
 ﻿{
-    "version":  "v0.1.0",
+    "version":  "v0.2.0",
     "channel":  "latest",
     "platform":  "windows-x64",
-    "bundle":  "TexasSolverGpu-v0.1.0-windows-x64.zip",
-    "sha256":  "46e49955804d3a143aeaa818b44d0ce39dc24940c53d6bc5016627dbe6712358",
-    "generated_at":  "2026-03-19T12:01:18+08:00",
+    "bundle":  "TexasSolverGpu-v0.2.0-windows-x64.zip",
+    "sha256":  "8a828552b2ab568398e3876107d4c9a8e056e2f10ac9958ff58aa424d311b196",
+    "generated_at":  "2026-03-21T14:12:10+08:00",
     "source_repo":  "gpu_solver",
-    "source_commit":  "4ef4c20",
+    "source_commit":  "ec8e883",
     "required_runtime_files":  [
                                    "TexasSolverGpu.exe",
                                    "TexasSolverGpu_131.exe",
